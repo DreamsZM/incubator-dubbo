@@ -20,6 +20,9 @@ import org.apache.dubbo.common.URL;
 
 import java.util.List;
 
+/**
+ * zookeeper 客户端
+ */
 public interface ZookeeperClient {
 
     void create(String path, boolean ephemeral);

@@ -16,6 +16,9 @@
  */
 package org.apache.dubbo.remoting.zookeeper;
 
+/**
+ *
+ */
 public interface StateListener {
 
     int DISCONNECTED = 0;
@@ -24,6 +27,10 @@ public interface StateListener {
 
     int RECONNECTED = 2;
 
+    /**
+     *
+     * @param connected
+     */
     void stateChanged(int connected);
 
 }

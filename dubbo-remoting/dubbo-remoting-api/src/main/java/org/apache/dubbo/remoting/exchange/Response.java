@@ -18,6 +18,7 @@ package org.apache.dubbo.remoting.exchange;
 
 /**
  * Response
+ * todo: 响应码可以拆分成一个独立的类
  */
 public class Response {
 

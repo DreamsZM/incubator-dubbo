@@ -22,6 +22,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * Request.
+ * TODO：请求头 + 请求体
  */
 public class Request {
 
@@ -41,6 +42,9 @@ public class Request {
 
     private boolean mBroken = false;
 
+    /**
+     * TODO：请求的数据
+     */
     private Object mData;
 
     public Request() {
